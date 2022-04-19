@@ -71,7 +71,7 @@ body {
 
 .description h1 {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 12px;
 }
 
@@ -96,7 +96,7 @@ body {
 
 .price .price-tag {
     color: var(--cyan);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .price .price-tag::before {
@@ -109,6 +109,10 @@ body {
     content: url(./images/icon-clock.svg);
     padding-right: 6px;
     vertical-align: middle;
+}
+
+.price-tag, .time-left, .author {
+    font-size: 14px;
 }
 
 .author {
@@ -127,6 +131,9 @@ body {
     margin-right: var(--spacer-s);
 }
 
+.author a {
+    font-weight: 600;
+}
 .author a,
 h1 a {
     color: var(--white);
